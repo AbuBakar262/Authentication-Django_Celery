@@ -7,8 +7,6 @@ A
 accounts/views.py,b/a/ba7590f6f358542018b74d55cb2e357917bab56c
 G
 accounts/usermanager.py,6/3/635452efd851406d73a929ebd4e8c012d03d7353
-4
-.env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4

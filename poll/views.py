@@ -36,5 +36,12 @@ class CreatePollView(viewsets.ModelViewSet):
             res = super(CreatePollView, self).list(request, args, kwargs).data
             return Response({
                 "success": True,
-                ""
-            })
+                "message": 'All Poll Listed Successfully',
+                "data": res
+            }, status=status.HTTP_200_OK)
+        except Exception as e:
+            return Response({
+                "success": False,
+                "message": str(e),
+                "data": ""
+            }, status=status.HTTP_400_BAD_REQUEST)
